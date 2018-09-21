@@ -93,7 +93,7 @@ module.exports = function (h) {
             'click': _this.toggleChildRow.bind(_this, row[rowKey])
           },
           'class': 'VueTables__child-row-toggler ' + _this.childRowTogglerClass(row[rowKey]) })]);
-        if (_this.opts.childRowTogglerFirst) columns.push(childRowToggler);
+        // if (_this.opts.childRowTogglerFirst) columns.push(childRowToggler);
       }
 
       _this.allColumns.map(function (column) {
